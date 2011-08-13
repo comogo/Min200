@@ -1,0 +1,1 @@
+Interface Python para o modem min200 da Daruma.
