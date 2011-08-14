@@ -62,7 +62,7 @@ class Min200E(object):
     ERROR = '\r\nERROR\r\n'
     CMS_ERROR = '\r\n+CMS ERROR\r\n'
     
-    def __init__(self, port='/dev/cu.usbserial-A600dXda', baudrate=9600, timeout=0.1, debug=False):
+    def __init__(self, port='/dev/cu.usbserial-A600dXda', baudrate=115200, timeout=0.2, debug=False):
         self.timeout = timeout
         self.port = port
         self.baudrate = baudrate
