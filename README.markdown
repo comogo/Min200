@@ -65,7 +65,7 @@ conectado na porta *COM1*.
         
 ### Listar todos os SMSs
 
-Listar todos os SMSs do SIM idependente do status da mensagem. Supondo que
+Listar todos os SMSs do SIM independente do status da mensagem. Supondo que
 o dispositivo min200e esteja conectado na porta */dev/cu.usbserial-A600dXda*.
 
     # coding: -*- coding: utf-8 -*-
@@ -83,7 +83,7 @@ o dispositivo min200e esteja conectado na porta */dev/cu.usbserial-A600dXda*.
         
 ### Listar todos os SMSs não lidos
 
-Listar todos os SMSs não lidos do SIM idependente do status da mensagem. 
+Listar todos os SMSs não lidos do SIM com status da mensagem como "Não Lido".
 Supondo que o dispositivo min200e esteja conectado na porta *COM2*.
 
     # coding: -*- coding: utf-8 -*-
